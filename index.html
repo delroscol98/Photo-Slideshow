@@ -8,84 +8,81 @@
     <title>Photo Slideshow | Emilia Grace</title>
 </head>
 <body>
+    <h1>Photo Slideshow | Emilia Grace</h1>
+
     <!-- Slideshow container-->
     <div class="slideshow-container">
 
         <!--Full-width images with numbers-->
         <div class="mySlides fade">
-            <div class="numbertext">1 / 13</div>
+            <div class="numbertext">1 / 12</div>
             <img src="photo1.jpg"/>
         </div>
         <div class="mySlides fade">
-            <div class="numbertext">2 / 13</div>
+            <div class="numbertext">2 / 12</div>
             <img src="photo2.jpg"/>
         </div>
         <div class="mySlides fade">
-            <div class="numbertext">3 / 13</div>
+            <div class="numbertext">3 / 12</div>
             <img src="photo3.jpg"/>
         </div>
         <div class="mySlides fade">
-            <div class="numbertext">4 / 13</div>
+            <div class="numbertext">4 / 12</div>
             <img src="photo4.jpg"/>
         </div>
         <div class="mySlides fade">
-            <div class="numbertext">5 / 13</div>
+            <div class="numbertext">5 / 12</div>
             <img src="photo5.jpg"/>
         </div>
         <div class="mySlides fade">
-            <div class="numbertext">6 / 13</div>
+            <div class="numbertext">6 / 12</div>
             <img src="photo6.jpg"/>
         </div>
         <div class="mySlides fade">
-            <div class="numbertext">7 / 13</div>
+            <div class="numbertext">7 / 12</div>
             <img src="photo7.jpg"/>
         </div>
         <div class="mySlides fade">
-            <div class="numbertext">8 / 13</div>
+            <div class="numbertext">8 / 12</div>
             <img src="photo8.jpg"/>
         </div>
         <div class="mySlides fade">
-            <div class="numbertext">9 / 13</div>
+            <div class="numbertext">9 / 12</div>
             <img src="photo9.jpg"/>
         </div>
         <div class="mySlides fade">
-            <div class="numbertext">10 / 13</div>
+            <div class="numbertext">10 / 12</div>
             <img src="photo10.jpg"/>
         </div>
         <div class="mySlides fade">
-            <div class="numbertext">11 / 13</div>
+            <div class="numbertext">11 / 12</div>
             <img src="photo11.jpg"/>
         </div>
         <div class="mySlides fade">
-            <div class="numbertext">12 / 13</div>
+            <div class="numbertext">12 / 12</div>
             <img src="photo12.jpg"/>
-        </div>
-        <div class="mySlides fade">
-            <div class="numbertext">13 / 13</div>
-            <img src="photo13.jpg"/>
         </div>
 
         <!--Next and Previous Buttons-->
-        <a class="prev">&#10094;</a>
-        <a class="next">&#10095;</a>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
     <br>
 
     <!--The dots and circles-->
-    <div style="text-align: centre;">
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
+    <div id="dots-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
+        <span class="dot" onclick="currentSlide(10)"></span>
+        <span class="dot" onclick="currentSlide(11)"></span>
+        <span class="dot" onclick="currentSlide(12)"></span>
     </div>
 
     <script src="script.js"></script>
